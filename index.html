@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online - Beranda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="WhatsApp Image 2026-01-06 at 11.18.56.jpeg" height="50" width="50"> Permana Store
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="index.html">Beranda</a>
+                <a class="nav-link" href="transaksi.html">Transaksi</a>
+                <a class="nav-link" href="profil.html">Profil</a>
+                <a class="nav-link" href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Selamat Datang di Toko Online</h1>
+        <p class="text-center mb-5">Jelajahi produk kami dan belanja dengan mudah!</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://dfw7ggv03f58r.cloudfront.net/accounts/6623815b57eb496f470a6066/products/674e7d8537f5ca51dbbd6587/674e7f1b98b9bffe2277c2bb.jpeg.resized512.webp" class="card-img-top" alt="Produk 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Loafers Burgundy</h5>
+                        <p class="card-text">Harga: Rp 230.000</p>
+                        <p class="card-text">Terbuat dari material kulit sintetis premium dan dijahit dengan teliti oleh para ahli</p>
+
+                        <button class="btn btn-primary btn-custom" onclick="addToCart('Produk 1')">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://indotimes.net/wp-content/uploads/2022/11/sepatu-pantofel.png" class="card-img-top" alt="Produk 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pantofel Hitam Doff</h5>
+                        <p class="card-text">Harga: Rp 198.000</p>
+                        <p class="card-text">Pilihan sepatu klasik tapi selalu eksis, memberikan kesan mewah, lembut, dan nyaman saat dipakai</p>
+                        <button class="btn btn-primary btn-custom" onclick="addToCart('Produk 2')">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbke-m7ngw69arhqoef" class="card-img-top" alt="Produk 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Combi S1 suede</h5>
+                        <p class="card-text">Harga: Rp 280.000</p>
+                        <p class="card-text">Sepatu Sneaker Kasual Pria dari Kulit Sapi Asli dengan Desain Elegan Jadikan penampilanmu semakin keren dengan sepatu COMBI buatan pengrajin lokal. </p>
+                        <button class="btn btn-primary btn-custom" onclick="addToCart('Produk 3')">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2023 Toko Online. Semua hak dilindungi.</p>
+            <p>Kontak: info@Permanastore.com | Telepon: 0812-3443-9988</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

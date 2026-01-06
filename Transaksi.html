@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online - Transaksi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Toko Online</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Beranda</a>
+                <a class="nav-link active" href="transaksi.html">Transaksi</a>
+                <a class="nav-link" href="profil.html">Profil</a>
+                <a class="nav-link" href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>Riwayat Transaksi</h1>
+        <p>Daftar transaksi Anda:</p>
+        <ul id="transactionList" class="list-group">
+            <!-- Transaksi akan ditampilkan di sini -->
+        </ul>
+        <button class="btn btn-success mt-3" onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
